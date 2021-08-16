@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #181719;
+  color: #ffffff;
+  font-family: 'Montserrat';
+}
+
+.container {
+  margin: 0 5%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 60px;
+}
+
+.nav h2 {
+  font-family: 'Crimson Pro';
+  font-size: 18px;
+  line-height: 16px;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.nav h2:hover {
+  background: #fff;
+  color: #181719;
+}
+
+.nav .home,
+.nav .collection,
+.nav .about,
+.nav .contact {
+  cursor: pointer;
+}
+
+.home:hover,
+.collection:hover,
+.about:hover,
+.contact:hover {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 8px;
+}
+
+.nav .home {
+  font-weight: 700;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  margin: 0 24px;
+}
+
+.showcase {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase .info {
+  max-width: 400px;
+  margin-right: 100px;
+}
+
+.info h1 {
+  font-family: 'Lora';
+  font-size: 48px;
+  line-height: 61px;
+  margin-bottom: 40px;
+}
+
+.info p {
+  margin-bottom: 24px;
+  word-spacing: 6px;
+  line-height: 24px;
+}
+
+.image-wrapper {
+  /* max-width: 450px; */
+  margin-left: 150px;
+  position: relative;
+}
+
+.image-wrapper #img1 {
+  width: 100%;
+}
+
+.card {
+  background: #181719;
+  color: #fff;
+  position: absolute;
+  width: 300px;
+  height: 140px;
+  left: 200px;
+  top: 355px;
+}
+
+.card .designer {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  margin-top: 18px;
+}
+
+.card #img2 {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+.designer .details {
+  margin-left: 12px;
+}
+
+.designer .details h6 {
+  font-size: 12px;
+}
+
+.designer .details small {
+  font-size: 12px;
+  color: #828282;
+}
+
+.card h3 {
+  font-family: 'Lora';
+  font-size: 18px;
+  margin-left: 22px;
+  margin-top: 16px;
+}
+
+.footer {
+  color: #a9a9a9;
+  text-align: center;
+  margin-top: 80px;
+}
